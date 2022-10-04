@@ -1,5 +1,5 @@
-# This text file was auto-generated
-
+# This text file was auto-generated  
+  
 Problem Information:  
 Code: 1A  
 Name: Theatre Square  
