@@ -1,4 +1,4 @@
-# Competitive Programming History
+# Competitive Programming AC Submissions
 
 This repo contains all of my AC submissions from [Leetcode](https://leetcode.com/simon7426/)) and [Codeforces](https://codeforces.com/submissions/Simon7426)) accounts. (Last Updated 2022-10-04)
 
