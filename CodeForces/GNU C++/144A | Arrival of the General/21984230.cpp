@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+main()
+{
+    int a[101],n,i,max,min,mai=0,mii=0;
+    cin>>n;
+    cin>>a[0];
+    max=a[0];
+    min=a[0];
+    for(i=1;i<n;i++)
+    {
+        cin>>a[i];
+        if(a[i]>max)
+        {
+            max=a[i];
+            mai=i;
+        }
+        if(a[i]<=min)
+        {
+            min=a[i];
+            mii=i;
+        }
+    }
+    if(mai>mii)
+    {
+        cout<<mai+n-(mii+2)<<endl;
+    }
+    else
+    {
+        cout<<mai+(n-1)-mii<<endl;
+    }
+}
